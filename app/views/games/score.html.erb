@@ -1,0 +1,15 @@
+<h1>Games#score</h1>
+
+<% if @word_in_grid && @english %>
+  <p>congratualations</p>
+<% end %>
+
+
+
+
+<!--
+The word can't be built out of the original grid
+The word is valid according to the grid, but is not a valid English word
+The word is valid according to the grid and is an English word
+ -->
+<%= link_to 'Play again', new_path %>
